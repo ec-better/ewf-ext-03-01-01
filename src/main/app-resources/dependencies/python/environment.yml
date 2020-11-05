@@ -1,0 +1,27 @@
+name: mangrove_final
+channels:
+  - terradue
+  - conda-forge
+  - defaults
+dependencies:
+  - app_descriptor_generator=1.0.10
+  - keras=2.3.1
+  - keras-applications=1.0.8
+  - keras-base=2.3.1
+  - keras-preprocessing=1.1.0
+  - tensorflow=2.1.0
+  - tensorflow-base=2.1.0
+  - tensorflow-estimator=2.1.0
+  - numpy=1.18.5
+  - python=3.7.6
+  - scikit-image=0.17.2
+  - scipy=1.5.0
+  - py=1.9.0
+  - pytest=5.4.3
+  - nbconvert
+  - cioppy
+  - ipykernel
+  - gdal=3.1.2
+  - scikit-learn
+prefix: /opt/anaconda/envs/mangrove_final
+

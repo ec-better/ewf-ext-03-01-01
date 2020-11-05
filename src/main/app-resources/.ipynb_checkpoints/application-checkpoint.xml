@@ -1,0 +1,20 @@
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="application">
+  <jobTemplates>
+    <jobTemplate id="notebook">
+      <streamingExecutable>/application/notebook/run</streamingExecutable>
+      <defaultParameters/>
+     <defaultJobconf>
+        <property id="mapred.task.timeout">9900000000000</property>
+      </defaultJobconf>
+    </jobTemplate>
+  </jobTemplates>
+  <workflow id="ewf-ext-03-01-01" title="ewf-ext-03-01-01 - Mangrove detection" abstract="Image classification with deep learning for mangrove detection">
+    <workflowVersion>1.0</workflowVersion>
+    <node id="notebook">
+      <job id="notebook"/>
+      <sources>
+        <source id="source" title="Input references" abstract="Input references" refid="string:list" scope="runtime">https://catalog.terradue.com/sentinel2/search?uid=S2A_MSIL2A_20200722T055641_N0214_R091_T42SXA_20200722T095847</source>
+      </sources>
+    </node>
+  </workflow>
+</application>

@@ -1,0 +1,17 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <CategoryNames>
+      <Category>0.no Mangrove Probability</Category>
+      <Category>1.no Mangrove Probability</Category>
+      <Category>2.no Mangrove Probability</Category>
+      <Category>3.Very Very Low Mangrove Probability</Category>
+      <Category>4.Very Low Mangrove Probability</Category>
+      <Category>5.Low Mangrove Probability</Category>
+      <Category>6.Medium Low Mangrove Probability</Category>
+      <Category>7.Medium High Mangrove Probability</Category>
+      <Category>8.High Mangrove Probability</Category>
+      <Category>9.Very High Mangrove Probability</Category>
+      <Category>10.Very Very High Mangrove Probability</Category>
+    </CategoryNames>
+  </PAMRasterBand>
+</PAMDataset>
